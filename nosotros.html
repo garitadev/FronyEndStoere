@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Store</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header"> 
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="logotipo">
+        </a>
+    </header>
+    <nav class="navegacion"> <!--"navegacion" bajo la metodologia de bem es un bloque, "navegacion__enlace" un elemento y "navegacion__enlace--activo" un modificador -->
+        <a class="navegacion__enlace" href="index.html">Tienda</a>
+        <a class="navegacion__enlace navegacion__enlace--activo" href="nosotros.html">Nosotros</a>
+    </nav>
+    <main class="contenedor">
+        <h1>Nosotros</h1>
+
+        <div class="nosotros">
+            <div class="nosotros__contenido">
+                <p>
+                    Quisque ut nulla non quam dapibus egestas. Nunc molestie orci maximus, suscipit quam eu, varius arcu. Mauris lacinia
+                    faucibus consectetur. Sed nunc orci, tincidunt ut magna vitae, volutpat placerat ex. Etiam hendrerit lectus eu congue
+                    vehicula. Sed tincidunt tincidunt dui eu tristique. Vestibulum tincidunt orci ante, quis interdum magna commodo eget.
+                    Vivamus dapibus massa in purus vestibulum hendrerit. Morbi ut porta.
+                </p>
+                <p>
+                    Maecenas viverra faucibus risus. Aliquam ac luctus quam. Aenean accumsan eleifend eros, at tristique nisl vestibulum ut.
+                    Donec lacinia ut ligula sed tempor. Curabitur laoreet malesuada suscipit. Fusce et quam dictum massa suscipit gravida
+                    volutpat vel ex. Etiam varius mauris vel convallis lacinia. Maecenas nulla purus, sollicitudin vel vulputate et,
+                    vestibulum ac enim. Vivamus nisl risus, posuere vel suscipit vitae, tincidunt vitae augue. Maecenas eget lectus gravida
+                    leo bibendum auctor a porttitor libero.
+                </p>
+            </div>
+            <img src="img/nosotros.jpg" alt="imagen nosotros" class="nosotros__imagen">
+        </div>
+    </main>
+
+    <section class="contendor comprar">
+        <h2 class="comprar__titulo">Por qué comprar con nosotros?</h2>
+        <div class="bloques">
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_1.png" alt="por que comprar">
+                <h3 class="bloque__titulo">El Mejor Precio</h3>
+                <p>Maecenas viverra faucibus risus. Aliquam ac luctus quam. Aenean accumsan eleifend eros, at tristique nisl vestibulum ut.
+                    Donec lacinia ut ligula sed tempor.</p>
+            </div> <!--.bloque-->
+
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_2.png" alt="para devs">
+                <h3 class="bloque__titulo">Para Devs</h3>
+                <p>Maecenas viverra faucibus risus. Aliquam ac luctus quam. Aenean accumsan eleifend eros, at tristique nisl vestibulum ut.
+                    Donec lacinia ut ligula sed tempor.</p>
+            </div> <!--.bloque-->
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_3.png" alt="envio gratis">
+                <h3 class="bloque__titulo">Envio Gratis</h3>
+                <p>Maecenas viverra faucibus risus. Aliquam ac luctus quam. Aenean accumsan eleifend eros, at tristique nisl vestibulum ut.
+                    Donec lacinia ut ligula sed tempor.</p>
+            </div> <!--.bloque-->
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_4.png" alt="calidad">
+                <h3 class="bloque__titulo">La mejor calidad</h3>
+                <p>Maecenas viverra faucibus risus. Aliquam ac luctus quam. Aenean accumsan eleifend eros, at tristique nisl vestibulum ut.
+                    Donec lacinia ut ligula sed tempor.</p>
+            </div> <!--.bloque-->
+        </div> <!--.bloques-->
+    </section>
+
+    <footer class="footer">
+        <p class="footer__texto">Front End Store - Todos los derechos Reservados 2022.</p>
+    </footer>
+</body>
+</html>
